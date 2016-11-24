@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include <math.h>
+include <math.h>
 #include <stdlib.h>
 #include <cstdio>
 using namespace std;
@@ -61,7 +61,7 @@ void main()
 	char S_Original [256];
 	cin.getline(S_Original,256);
 	char S_Result [256] = "";
-	int key = 123;
+	int key;
 	cout << "Введите ключ для шифрования:";
 	cin >> key;
 	
