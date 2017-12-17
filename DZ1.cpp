@@ -40,7 +40,7 @@ void crypt(char original[256], int key, char result[256], bool flag_crypt)
 
 	srand(key); // Инициализация генератора ПСЧ ключом шифра
 
-	for (int i = 0; i < blocks; i++)
+	for (unsigned int i = 0; i < blocks; ++i)
 	{
 
 		if ((i != blocks) || (SizeLastBlock = 0)) 
